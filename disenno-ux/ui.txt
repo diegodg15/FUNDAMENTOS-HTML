@@ -1,0 +1,12 @@
+DESIGN SYSTEM:
+
+🧩 Elementos básicos de un Design System
+📁 Design System
+ ├── 🎨 Colores
+ ├── 🔠 Tipografía
+ ├── 🔘 Botones
+ ├── 🧾 Formularios
+ ├── 🧩 Componentes
+ └── 📏 Espaciado / Grid
+
+

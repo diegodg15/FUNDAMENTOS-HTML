@@ -1,0 +1,15 @@
+/*Paleta de colores---> Metarial Design*/
+* {
+    --color-primario: #313940;
+    --color-secundario: #403831;
+    --color-exito: #2E7D32;
+    --color-fondo: #313940;
+    --color-error: #B00020;
+    --color-texto: #fff;
+}
+
+body {
+    background-color: var(--color-primario);
+    color: var(--color-texto);
+    
+}
