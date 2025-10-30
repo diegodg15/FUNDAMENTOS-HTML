@@ -9,7 +9,7 @@
 }
 
 body {
-    background-color: var(--color-primario);
+    background-color: var(--color-fondo);
     color: var(--color-texto);
     
 }
