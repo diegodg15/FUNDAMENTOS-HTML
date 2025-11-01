@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas html</title>
+</head>
+
+<!--Tablas html-->
+<!--tr:filas; td:celdas-->
+
+<body>
+    <style>
+        .table-03 th,
+        .table-03 td {
+            border: 1px solid black;
+        }
+    </style>
+
+    <table class="table-01" style="border: 1px solid red">
+        <tr style="border: 1px solid rgb(0, 0, 0)">
+            <td style="border: 1px solid rgb(255, 145, 0)">fila 1, columna 1</td>
+            <td style="border: 1px solid rgb(0, 38, 255)">fila 1, columna 2</td>
+        </tr>
+        <tr>
+            <td>fila 2, columna 1</td>
+            <td>fila 2, columna 2</td>
+        </tr>
+    </table>
+    <hr>
+
+    <table class="table-01" style="border: 1px solid red">
+        <tr>
+            <th>Servicio</th>
+            <th>Precio</th>
+        </tr>
+        <tr>
+            <td>Diseño web</td>
+            <td>$500</td>
+        </tr>
+    </table>
+    <hr>
+
+    <!--Fusionar celdas-->
+    <!--colspan; rowspan-->
+    <table class="table-03" style="border: 1px solid rgb(0, 0, 0)">
+        <tr>
+            <th rowspan="2"> Producto</th>
+            <th colspan="2">Precio</th>
+        </tr>
+        <tr>
+            <td>antes</td>
+            <td>ahora</td>
+        </tr>
+        <tr>
+            <td>producto 1</td>
+            <td>$500</td>
+            <td>$250</td>
+        </tr>
+    </table>
+
+
+</body>
+
+</html>
